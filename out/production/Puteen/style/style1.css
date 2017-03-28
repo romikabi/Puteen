@@ -1,0 +1,51 @@
+*{
+    darkback:#4A5866;
+    back:#516B8C;
+    text:#BED5E9;
+    c4:#F7F7FF;
+}
+
+.root{
+    -fx-font-size: 13pt;
+    -fx-font-family:"Trebuchet MS";
+    -fx-background: back;
+    -fx-text-fill: text;
+
+}
+
+.label {
+    -fx-text-fill: text;
+}
+
+.menu{
+    -fx-background: back;
+    -fx-base: back;
+}
+
+.menu-item:pressed{
+    -fx-background-color: back;
+}
+
+.context-menu{
+    -fx-background-color: darkback;
+}
+
+.menu.label{
+    -fx-text-fill: text;
+}
+
+.menu-item{
+    -fx-background: darkback;
+}
+
+.menu-item.label{
+    -fx-text-fill: text;
+}
+
+.menu-bar{
+    -fx-background-color: back;
+}
+
+.tool-bar{
+    -fx-background-color: back;
+}
